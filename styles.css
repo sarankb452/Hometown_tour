@@ -1,0 +1,83 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+@font-face{
+    src: url("/images/seaweed-script.regular.ttf");
+    font-family: "seaweed-script.regular";
+}
+
+body {
+    
+    
+    /*text-align: center;*/
+}
+.hero{
+    text-align: center;
+    font-family: "seaweed-script.regular"; 
+    font-size:20px;
+    font-weight: lighter;
+    background-image:url("https://images.unsplash.com/photo-1707833711203-7b37bdeb73b6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dmlzYWtoYXBhdG5hbXxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    padding: 10px 0px;
+    color:white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: 0px;
+}
+.places{
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    gap: 10px;  
+    background-color: beige;
+    padding: 20px;
+    color:black;
+    text-shadow: 1px 1px 2px gray; 
+    font-family: cursive;
+    font-style: italic;
+    font-size: 25px;
+}
+.img{
+    text-align:center;
+    margin-top: 20px;
+    background-image:linear-gradient(lightskyblue,lightpink);
+    background-size: cover;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;    
+}
+#img1:hover{
+    background-image: url("./images/img1.jpg");    
+}
+#img2:hover{
+    background-image: url("./images/img3.jpg");    
+}
+#img3:hover{
+    background-image: url("./images/img2.webp");    
+}
+.guide{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border:3px solid grey;
+    border-radius: 10px;
+    margin:0px auto;
+    width: 300px;
+    height: 200px;
+    gap: 13px;
+}
+
+img{
+    margin-top: 25px;
+    margin-left: 10px;
+    width: 100px;
+    height: 150px;
+    border-radius:0px;
+}
